@@ -16,6 +16,8 @@ architecture tb of tb_systolic_multiplier is
               step     : out integer);
     end component;
 
+
+
     signal clk      : std_logic;
     signal reset    : std_logic;
     signal matrix_A : matrix_type;
